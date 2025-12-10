@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: UserService
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/realms/SkillGapAdvisor
+
+server:
+  port: 8082
