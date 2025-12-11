@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: GatewayService
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/realms/SkillGapAdvisor
+
+server:
+  port: 8080
