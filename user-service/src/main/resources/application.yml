@@ -8,5 +8,15 @@ spring:
         jwt:
           issuer-uri: http://localhost:8081/realms/SkillGapAdvisor
 
+  datasource:
+    url: jdbc:postgresql://localhost:5432/skillgap
+    username: postgres
+    password: postgres
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 server:
   port: 8082
