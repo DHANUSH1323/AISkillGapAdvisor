@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+github:
+  client-id: Iv23lIQ8zYvo7XjSorrw
+  client-secret: ${GITHUB_CLIENT_SECRET:placeholder_secret}
+  redirect-uri: http://localhost:8082/callback
+  app-id: 2454563
+  private-key-pem: ${GITHUB_PRIVATE_KEY}
